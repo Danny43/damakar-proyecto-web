@@ -35,6 +35,12 @@
     <body>
 
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+        <!--  Este es un Navbar generico, hay que personalizar el li con la class nav-item active
+              segun la pagina que corresponda, esta pagina corresponde a CLIENTE, por lo tanto el item
+              cliente de la li tiene la propiedad active
+       -->
+
       <a class="navbar-brand" href="index.jsp">damakar</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
