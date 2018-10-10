@@ -35,6 +35,12 @@
     <body>
 
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+        <!--  Este es un Navbar generico, hay que personalizar el li con la class nav-item active
+              segun la pagina que corresponda, esta pagina corresponde a CLIENTE, por lo tanto el item
+              cliente de la li tiene la propiedad active
+       -->
+
       <a class="navbar-brand" href="index.jsp">damakar</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -68,20 +74,24 @@
     </nav>
 
   <div class="tarjeta-central">
-    <div class="jumbotron contenedor-login">
-  <h1 class="display-8">Iniciar Sesion</h1>
-  <p class="lead">Bienvenido Estimado Cliente</p>
-  <div class="form-group">
-      <label for="RUT-cliente">RUT</label>
-      <input type="text" class="form-control input-blanco" id="RUT-cliente" aria-describedby="emailHelp">
-      <small id="emailHelp" class="form-text text-muted">Ejemplo: 12345678-9</small>
-    </div>
-    <div class="form-group">
-      <label for="password-cliente">Contraseña</label>
-      <input type="password" class="form-control input-blanco" id="password-cliente" placeholder="*******">
-    </div>
-    <button type="submit" class="btn btn-primary" name="iniciar-cliente">Iniciar Sesion</button>
-</div>
+    <form action="MainServlet" method="post">
+
+      <div class="jumbotron contenedor-login">
+        <h1 class="display-8">Iniciar Sesion</h1>
+        <p class="lead">Bienvenido Estimado Cliente</p>
+        <div class="form-group">
+          <label for="RUT-cliente">RUT</label>
+          <input type="text" class="form-control input-blanco" id="RUT-cliente" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">Ejemplo: 12345678-9</small>
+          </div>
+          <div class="form-group">
+            <label for="password-cliente">Contraseña</label>
+            <input type="password" class="form-control input-blanco" id="password-cliente" placeholder="*******">
+            </div>
+            <button type="submit" class="btn btn-primary" name="iniciar-cliente">Iniciar Sesion</button>
+          </div>
+
+    </form>
   </div>
 
 
