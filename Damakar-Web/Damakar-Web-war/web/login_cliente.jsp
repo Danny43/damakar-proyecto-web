@@ -11,6 +11,26 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Login | Cliente</title>
         <link rel="stylesheet" href="css/bootstrap.css">
+        <style >
+          .contenedor-login{
+            height: 450px;
+            width: 500px;
+            margin: auto;
+          }
+          .input-blanco{
+            background-color: #ffff;
+          }
+          html, body, .tarjeta-central{
+
+            height: 100%;
+
+          }
+
+            .tarjeta-central{
+              margin-top: 50px;
+            }
+
+        </style>
     </head>
     <body>
 
@@ -47,15 +67,20 @@
       </div>
     </nav>
 
-  <div>
-    <div class="jumbotron">
-  <h1 class="display-3">Hello, world!</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-  </p>
+  <div class="tarjeta-central">
+    <div class="jumbotron contenedor-login">
+  <h1 class="display-8">Iniciar Sesion</h1>
+  <p class="lead">Bienvenido Estimado Cliente</p>
+  <div class="form-group">
+      <label for="RUT-cliente">RUT</label>
+      <input type="text" class="form-control input-blanco" id="RUT-cliente" aria-describedby="emailHelp">
+      <small id="emailHelp" class="form-text text-muted">Ejemplo: 12345678-9</small>
+    </div>
+    <div class="form-group">
+      <label for="password-cliente">Contraseña</label>
+      <input type="password" class="form-control input-blanco" id="password-cliente" placeholder="*******">
+    </div>
+    <button type="submit" class="btn btn-primary" name="iniciar-cliente">Iniciar Sesion</button>
 </div>
   </div>
 
