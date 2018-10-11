@@ -127,10 +127,12 @@
             </table>
 
             <div class="tabla botones">
-
+              <a class="btn btn-primary" href="menuPrincipal_cliente.jsp">Volver</a>
+              <a class="btn btn-primary" href="modificarCliente.jsp">Modificar</a>
+              <!--  Boton para que pase por el Servlet
               <button class="btn btn-primary btn-volver" type="button" name="button">Volver</button>
               <button class="btn btn-primary btn-modificar" type="button" name="button">Modificar</button>
-
+            -->
             </div>
 
           </div>
