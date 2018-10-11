@@ -16,7 +16,7 @@ Marcas Asociadas, Contactos etc.-->
     <title>¿Quiénes somos</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <a class="navbar-brand" href="index.jsp">damakar</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -36,14 +36,11 @@ Marcas Asociadas, Contactos etc.-->
           <li class="nav-item">
             <a class="nav-link" href="repuestosCatalogo.jsp">Repuestos</a>
           </li>
-          <li class="nav-item">
+<!--          <li class="nav-item">
             <a class="nav-link" href="#">Taller</a>
-          </li>
+          </li>-->
           <li class="nav-item">
             <a class="nav-link active" href="login_cliente.jsp">Cliente<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Ayuda</a>
           </li>
         </ul>
       </div>

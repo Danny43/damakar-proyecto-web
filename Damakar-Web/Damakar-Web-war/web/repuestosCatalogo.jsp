@@ -33,14 +33,11 @@
           <li class="nav-item">
             <a class="nav-link" href="repuestosCatalogo.jsp">Repuestos</a>
           </li>
-          <li class="nav-item">
+<!--          <li class="nav-item">
             <a class="nav-link" href="#">Taller</a>
-          </li>
+          </li>-->
           <li class="nav-item">
             <a class="nav-link active" href="login_cliente.jsp">Cliente<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Ayuda</a>
           </li>
         </ul>
       </div>
