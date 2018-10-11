@@ -15,16 +15,16 @@
            .p1{
                 width: 70px;
                 height:70px;
-                margin: auto;
+                margin-left: 15px;
             }
             .kappa{
-                margin-left:15px;
+                margin: auto;
+                position: relative;
+                display: inline-block;
+                width: 100%;
             }
             .auxiliar{
-                position: absolute;
-                width: 1000px;
-                text-align: center;
-                float: left;
+                width: 100%;
                 margin: auto;
             }
             .container-fluid{
@@ -39,6 +39,7 @@
             }
             .marcas-fila{
                 width: 100%;
+                margin: auto;
             }            
             .d-block{
                 height: 600px;
@@ -47,6 +48,12 @@
             }
             .otracosa{
                 padding: 50px;
+            }
+            .video{
+                margin: auto;
+            }
+            .tols{
+                margin: 40px auto 0px auto;
             }
         </style>
     </head>
@@ -110,17 +117,22 @@
                     <span class="sr-only">SIGUIENTE</span>
                 </a>
             </div>
-            <div class="marcas-fila row">
-                <div class="auxiliar">
-                    <a class="kappa"><img class="p1" src="img/toyotalogo.png"/></a>
-                    <a class="kappa"><img class="p1" src="img/citroenlogo.png"/></a>
-                    <a class="kappa"><img class="p1" src="img/dslogo.png"/></a>
-                    <a class="kappa"><img class="p1" src="img/volkslogo.jpg"/></a>
-                    <a class="kappa"><img class="p1" src="img/ssangyonglogo.jpg"/></a>
-                    <a class="kappa"><img class="p1" src="img/hondalogo.jpg"/></a>
-                    <a class="kappa"><img class="p1" src="img/skodalogo.jpg"/></a>
-                    <a class="kappa"><img class="p1" src="img/mglogo.jpg"/></a>
-                    <a class="kappa"><img class="p1" src="img/cherylogo.jpg"/></a>                
+            <div class="marcas-fila">
+                <div class="auxiliar row">
+                    <a class="col kappa"><img class="p1" src="img/toyotalogo.png"/></a>
+                    <a class="col kappa"><img class="p1" src="img/citroenlogo.png"/></a>
+                    <a class="col kappa"><img class="p1" src="img/dslogo.png"/></a>
+                    <a class="col kappa"><img class="p1" src="img/volkslogo.jpg"/></a>
+                    <a class="col kappa"><img class="p1" src="img/ssangyonglogo.jpg"/></a>
+                    <a class="col kappa"><img class="p1" src="img/hondalogo.jpg"/></a>
+                    <a class="col kappa"><img class="p1" src="img/skodalogo.jpg"/></a>
+                    <a class="col kappa"><img class="p1" src="img/mglogo.jpg"/></a>
+                    <a class="col kappa"><img class="p1" src="img/cherylogo.jpg"/></a>     
+                </div>
+            </div>
+            <div class="video">
+                <div class="aux-video row">
+                    <iframe class="tols" width="560" height="315" src="https://www.youtube.com/embed/6grBn3vE7fE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
