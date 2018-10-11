@@ -57,23 +57,23 @@
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Inicio</a>
+            <a class="nav-link" href="index.jsp">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Quienes somos</a>
+            <a class="nav-link" href="informacion.jsp">Quienes somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Vehiculos</a>
+            <a class="nav-link" href="vehiculosCatalogo.jsp">Vehiculos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Repuestos</a>
+            <a class="nav-link" href="repuestosCatalogo.jsp">Repuestos</a>
           </li>
 
           <li class="nav-item">
             <a class="nav-link active" href="login_cliente.jsp">Cliente<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Ayuda</a>
+            <a class="nav-link" href="ayuda.jsp">Ayuda</a>
           </li>
         </ul>
       </div>

@@ -40,6 +40,9 @@
           <li class="nav-item">
             <a class="nav-link active" href="login_cliente.jsp">Cliente<span class="sr-only">(current)</span></a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ayuda.jsp">Repuestos</a>
+          </li>
         </ul>
       </div>
     </nav>
