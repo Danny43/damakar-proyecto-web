@@ -87,7 +87,7 @@
             <input type="password" class="form-control input-blanco" id="password-cliente" placeholder="*******">
             </div>
 
-              <a class="btn btn-primary" href="menuPrincipal_cliente.jsp"></a>
+              <a class="btn btn-primary" href="menuPrincipal_cliente.jsp">Iniciar Sesion</a>
             <!--  Boton par que funcione con el Servlet
             <button type="submit" class="btn btn-primary" name="iniciar-cliente">Iniciar Sesion</button>
           -->
