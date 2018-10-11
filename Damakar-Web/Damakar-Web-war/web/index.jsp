@@ -52,10 +52,26 @@
         
         <!-- comentado we diseño para la cosa esta-->
         
-        <div class="maincocina">
-            <label>
-                
-            </label>
+        <div class="maincocina carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/img/auto1">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/img/auto2">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/img/auto3">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">ANTERIOR</span>
+            </a>
+            <a class="carousel-control-next" href="#" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">SIGUIENTE</span>
+            </a>
         </div>
     </body>
 </html>
