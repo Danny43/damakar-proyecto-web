@@ -1,0 +1,71 @@
+.p1{
+    width: 70px;
+    height:70px;
+    margin-left: 15px;
+}
+.kappa{
+    margin: 20px auto 20px auto;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.auxiliar{
+    width: 100%;
+    margin: auto;
+}
+.container-fluid{
+    width: 100%;
+    margin: 0px;
+}
+body{
+    width: 100%;
+}
+html{
+    width: 100%;
+}
+.marcas-fila{
+    width: 100%;
+    margin: auto;
+}            
+.d-block{
+    height: 600px;
+    width: 1100px;
+    margin: auto;
+}
+.otracosa{
+    padding: 50px;
+}
+.l{
+    margin:auto;
+    position: relative;
+    display: inline-block;
+
+}
+.tols{
+    margin: auto;
+}
+.aux-video{
+    width: 100%;
+    margin: auto;
+
+}
+.x{
+    margin: 40px auto 0px auto;
+}
+.f{
+    text-align: center;
+
+}    
+.uwu{
+    margin: auto;
+    color: white;
+    width: 100px;
+}
+.q{
+    color: white;
+}
+.barra-dark{
+    margin-top: 15px;
+    height: 100px;
+    width: 100%;
+}
