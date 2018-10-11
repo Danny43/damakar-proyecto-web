@@ -23,10 +23,10 @@
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Inicio</a>
+            <a class="nav-link" href="index.jsp">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Quienes somos</a>
+            <a class="nav-link" href="empresa.jsp">Quienes somos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Vehiculos</a>
