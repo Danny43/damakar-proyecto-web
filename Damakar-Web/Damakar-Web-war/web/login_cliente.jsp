@@ -60,9 +60,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Repuestos</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Taller</a>
-          </li>
+
           <li class="nav-item">
             <a class="nav-link active" href="login_cliente.jsp">Cliente<span class="sr-only">(current)</span></a>
           </li>
@@ -88,7 +86,11 @@
             <label for="password-cliente">Contraseña</label>
             <input type="password" class="form-control input-blanco" id="password-cliente" placeholder="*******">
             </div>
+
+              <a class="btn btn-primary" href="menuPrincipal_cliente.jsp"></a>
+            <!--  Boton par que funcione con el Servlet
             <button type="submit" class="btn btn-primary" name="iniciar-cliente">Iniciar Sesion</button>
+          -->
           </div>
 
     </form>
