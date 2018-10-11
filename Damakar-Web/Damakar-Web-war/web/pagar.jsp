@@ -28,19 +28,16 @@
             <a class="nav-link" href="informacion.jsp">Quienes somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Vehiculos</a>
+            <a class="nav-link" href="vehiculosCatalogo.jsp">Vehiculos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Repuestos</a>
+            <a class="nav-link" href="repuestosCatalogo.jsp">Repuestos</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Taller</a>
-          </li>
+          <!--          <li class="nav-item">
+                      <a class="nav-link" href="#">Taller</a>
+                    </li>-->
           <li class="nav-item">
             <a class="nav-link active" href="login_cliente.jsp">Cliente<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Ayuda</a>
           </li>
         </ul>
       </div>
@@ -81,8 +78,9 @@
           </tr>
         </tbody>
       </table>
-
+      <button type="button" class="btn btn-warning btn-sm btn-block">Agregar repuestos</button>
       <button type="button" class="btn btn-success btn-lg btn-block">Pagar</button>
+
     </div>
 
   </body>
