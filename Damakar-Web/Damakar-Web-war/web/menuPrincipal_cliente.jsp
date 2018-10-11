@@ -78,7 +78,7 @@
 </div>
 
 <div class="btn-group-vertical" data-toggle="buttons">
-  <button type="button" class="btn btn-primary">Mi Perfil</button>
+  <a class="btn btn-primary" href="miPerfil_cliente.jsp">Mi Perfil</a>
   <button type="button" class="btn btn-primary">Mis Vehiculos</button>
   <button type="button" class="btn btn-primary">Mi Cuenta</button>
   <button type="button" class="btn btn-primary">Agendar Cita</button>

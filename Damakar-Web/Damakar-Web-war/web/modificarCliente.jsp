@@ -68,7 +68,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Repuestos</a>
           </li>
-          
+
           <li class="nav-item">
             <a class="nav-link active" href="login_cliente.jsp">Cliente<span class="sr-only">(current)</span></a>
           </li>
@@ -137,7 +137,7 @@
 
 <div class="tabla botones">
 
-  <button class="btn btn-danger btn-cancelar" type="button" name="button">Cancelar</button>
+  <a class="btn btn-danger" href="miPerfil_cliente.jsp">Cancelar</a>
   <button class="btn btn-success btn-guardar" type="button" name="button">Guardar</button>
 
 </div>
