@@ -12,8 +12,31 @@
         <link rel="stylesheet" href="css/bootstrap.css"/>
         <title>JSP Page</title>
         <style>
-            .maincocina{
-                
+            p1{
+                width: 70px;
+                height:70px;
+            }
+            .kappa{
+                margin-left:15px;
+            }
+            .auxiliar{
+                position: relative;
+                width: 1000px;
+                text-align: center;
+                float: left;
+            }
+            .container-fluid{
+                width: 100%;
+                margin: 0px;
+            }
+            .body{
+                width: 100%;
+            }
+            .html{
+                width: 100%;
+            }
+            .marcas-fila{
+                width: 100%;
             }
         </style>
     </head>
@@ -55,13 +78,13 @@
         <div class="maincocina carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="/img/auto1">
+                    <img class="d-block w-100" src="/img/auto1.jpg">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="/img/auto2">
+                    <img class="d-block w-100" src="/img/auto2.jpg">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="/img/auto3">
+                    <img class="d-block w-100" src="/img/auto3.jpg">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#" role="button" data-slide="prev">
@@ -72,6 +95,21 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">SIGUIENTE</span>
             </a>
+        </div>
+        <div class="container-fluid">
+            <div class="marcas-fila">
+                <div class="auxiliar">
+                    <a class="kappa"><img class="p1" src="img/toyotalogo.png"/></a>
+                    <a class="kappa"><img class="p1" src="img/citroenlogo.png"/></a>
+                    <a class="kappa"><img class="p1" src="img/dslogo.png"/></a>
+                    <a class="kappa"><img class="p1" src="img/volkslogo.jpg"/></a>
+                    <a class="kappa"><img class="p1" src="img/ssangyonglogo.jpg"/></a>
+                    <a class="kappa"><img class="p1" src="img/hondalogo.jpg"/></a>
+                    <a class="kappa"><img class="p1" src="img/skodalogo.jpg"/></a>
+                    <a class="kappa"><img class="p1" src="img/mglogo.jpg"/></a>
+                    <a class="kappa"><img class="p1" src="img/cherylogo.jpg"/></a>                
+                </div>
+            </div>
         </div>
     </body>
 </html>
