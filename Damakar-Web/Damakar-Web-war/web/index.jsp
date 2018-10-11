@@ -100,7 +100,7 @@
                                 <p class="card-text f">    no encontrarás estos precios en </p>
                                 <p class="card-text f">    ningún otro lugar.</p>
                                 <div class="s row">
-                                    <button class="btn btn-primary btn-sm uwu">VER MÁS -->    </button>
+                                    <button class="btn btn-primary btn-sm uwu" >VER MÁS -->    </button>
                                 </div>
                             </div>
                         </div>
@@ -109,7 +109,23 @@
             </div>
         </div>
         <div class="barra-dark table-dark">
-
+            <div class="b row">
+                <div class="ayuda col">
+                    <p class="n">Visitanos en:</p>
+                    <a class="unic" href="#"><img src="img/facebook.png"/> Damakar S.A.</a>
+                    <a class="unic" href="#"><img src="img/gorjeo.png"/> DamakarChile</a>
+                </div>
+                <div class="ayuda col">
+                    <p class="n">Medios de pago:</p>
+                    <a  href="#"><img class="unic2" src="img/webpay.png"/></a>
+                </div>
+            </div>
+            <div class="alter ">
+                <div class="derechos col">
+                    <p class="n"> Copyright © 2018 - Todos los derechos reservados. Diseñado por Daniel Gutiérrez, Katalina Guerrero y María José Novoa.</p>
+                    <a class="unic3"><img class="im" src="img/inacap.png"/> Estudiantes de Inacap </a>
+                </div>
+            </div>
         </div>
     </body>
     <script>
