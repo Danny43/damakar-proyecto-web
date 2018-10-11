@@ -21,10 +21,11 @@
                 margin-left:15px;
             }
             .auxiliar{
-                position: relative;
+                position: absolute;
                 width: 1000px;
                 text-align: center;
                 float: left;
+                margin: auto;
             }
             .container-fluid{
                 width: 100%;
@@ -75,6 +76,9 @@
                 </li>-->
                 <li class="nav-item">
                   <a class="nav-link active" href="login_cliente.jsp">Cliente<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Ayuda</a>
                 </li>
               </ul>
             </div>
