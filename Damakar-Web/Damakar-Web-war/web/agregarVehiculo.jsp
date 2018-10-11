@@ -39,7 +39,7 @@
     </nav>
     <div class="container">
       <div class="divTitulo row"><H1>AGREGAR VEHICULO</H1></div> 
-      <div class="formulario">
+      <div class="formulario" style="margin:10px">
         <form action="#" method="post">
           <div class="form-group">
             <label for="txtPatente">Patente</label>
@@ -48,9 +48,17 @@
           <div class="form-group">
             <label for="slcModelo">Modelo vehiculo</label>
             <select class="form-control" id="slcModelo" name="slcModelo">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
+              <option>Hilux</option>
+              <option>Gol</option>
+              <option>Anarok</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="slcMarca">Marca vehiculo</label>
+            <select class="form-control" id="slcMarca" name="slcMarca">
+              <option>Toyota</option>
+              <option>Volkswagen</option>
+              <option>Morris Garages</option>
             </select>
           </div>
           <div class="form-group">
@@ -88,7 +96,7 @@
               <option>2002</option>
             </select>
           </div>
-          <button type="submit" class="btn btn-primary" name="action" value="agregarVehiculo">Submit</button>
+          <button type="submit" class="btn btn-primary" name="action" value="agregarVehiculo">Agregar</button>
         </form>
       </div>
 

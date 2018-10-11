@@ -94,7 +94,7 @@
               <option>2002</option>
             </select>
           </div>
-          <button type="submit" class="btn btn-primary" name="action" value="editarVehiculo">Submit</button>
+          <button type="submit" class="btn btn-primary" name="action" value="editarVehiculo">Guardar cambios</button>
         </form>
       </div>
 
