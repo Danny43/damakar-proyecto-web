@@ -47,7 +47,6 @@ html{
 .aux-video{
     width: 100%;
     margin: auto;
-
 }
 .x{
     margin: 40px auto 0px auto;
@@ -65,7 +64,34 @@ html{
     color: white;
 }
 .barra-dark{
-    margin-top: 15px;
-    height: 100px;
+    margin-top: 20px;
+    height: 200px;
     width: 100%;
+}
+.b{
+    width: 100%;
+    margin: auto;    
+}
+.n{
+    margin-top: 20px;
+    margin-left: 12px;
+}
+a{
+    color: white;
+}
+.unic{
+    margin-left: 12px;
+}
+.unic2{
+    width: 250px;
+    height: 50px;
+    margin-top: -10px;
+}
+.im{
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+}
+.alter{
+    margin: auto;
 }
