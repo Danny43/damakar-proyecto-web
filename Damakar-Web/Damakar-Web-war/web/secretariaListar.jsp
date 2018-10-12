@@ -1,16 +1,15 @@
 <%-- 
-    Document   : pagar
-    Created on : 10/10/2018, 06:33:47 PM
+    Document   : secretariaListar
+    Created on : 11/10/2018, 09:50:53 PM
     Author     : Kata
 --%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="css/bootstrap.css"/>
-    <title>Pagar servicio</title>
+    <title>Lista de secretarias</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -46,43 +45,47 @@
       </div>
     </nav>
     <div class="container">
-      <div class="divTitulo row"><H1>PAGAR SERVICIO</H1></div> 
+      <div class="divTitulo row"><H1 style="margin: 40px 0;">LISTA DE SECRETARIAS</H1></div> 
       <table class="table table-hover">
         <thead>
           <tr>
-            <th scope="col">FOLIO</th>
-            <th scope="col">00000</th>
+            <th scope="col">ID</th>
+            <th scope="col">RUT</th>
+            <th scope="col">NOMBRE</th>
+            <th scope="col">APELLIDO</th>
+            <th scope="col">FECHA CONTRATO</th>
+            <th scope="col">EMAIL</th>
+            <th scope="col">TELEFONO</th>
+            <th></th>
+            <th></th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="col">MECANICO</th>
-            <th scope="col">JUAN</th>
+            <th scope="col">1</th>
+            <th scope="col">18450320-5</th>
+            <th scope="col">SOFÍA</th>
+            <th scope="col">PEREZ</th>
+            <th scope="col">22-12-2016</th>
+            <th scope="col">sf22@damakar.cl</th>
+            <th scope="col">+56911223344</th>
+            <th scope="col"><a class="btn btn-primary btn-sm" href="secretariaEditar.jsp">Modificar</a></th>
+            <th scope="col"><a class="btn btn-danger btn-sm" href="#">CANCELAR</a></th>
           </tr>
           <tr>
-            <th scope="col">VEHICULO</th>
-            <th scope="col">AA0101</th>
+            <th scope="col">2</th>
+            <th scope="col">14250011-K</th>
+            <th scope="col">MARCELA</th>
+            <th scope="col">CONTRERAS</th>
+            <th scope="col">02-11-2015</th>
+            <th scope="col">marc@damakar.cl</th>
+            <th scope="col">+56951510909</th>
+            <th scope="col"><a class="btn btn-primary btn-sm" href="secretariaEditar.jsp">Modificar</a></th>
+            <th scope="col"><a class="btn btn-danger btn-sm" href="#">CANCELAR</a></th>
           </tr>
-          <tr>
-            <th scope="col">FECHA</th>
-            <th scope="col">12-10-2018</th>
-          </tr>
-          <tr>
-            <th scope="col">NETO</th>
-            <th scope="col">$15000</th>
-          </tr>
-          <tr>
-            <th scope="col">IVA</th>
-            <th scope="col">$2850</th>
-          </tr>
-          <tr>
-            <th scope="col">TOTAL</th>
-            <th scope="col">$17850</th>
-          </tr>
+          
         </tbody>
       </table>
-      <button type="button" class="btn btn-warning btn-sm btn-block">Agregar repuestos</button>
-      <button type="button" class="btn btn-success btn-lg btn-block">Pagar</button>
 
     </div>
 
