@@ -10,7 +10,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="css/bootstrap.css"/>
-    <title>Pagar servicio</title>
+    <title>Lista de transmision</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -46,43 +46,32 @@
       </div>
     </nav>
     <div class="container">
-      <div class="divTitulo row"><H1>PAGAR SERVICIO</H1></div> 
+      <div class="divTitulo row"><H1 style="margin: 40px 0;">LISTA DE TRANSMISION</H1></div> 
       <table class="table table-hover">
         <thead>
           <tr>
-            <th scope="col">FOLIO</th>
-            <th scope="col">00000</th>
+            <th scope="col">ID</th>
+            <th scope="col">NOMBRE</th>
+            <TH></TH>
+            <TH></TH>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="col">MECANICO</th>
-            <th scope="col">JUAN</th>
+            <th scope="col">1</th>
+            <th scope="col">MANUAL</th>
+            <th scope="col"><a class="btn btn-primary btn-sm" href="transmisionEditar.jsp">Modificar</a></th>
+            <th scope="col"><a class="btn btn-danger btn-sm" href="#">Deshabilitar</a></th>
           </tr>
           <tr>
-            <th scope="col">VEHICULO</th>
-            <th scope="col">AA0101</th>
+            <th scope="col">2</th>
+            <th scope="col">AUTOMATICA</th>
+            <th scope="col"><a class="btn btn-primary btn-sm" href="transmisionEditar.jsp">Modificar</a></th>
+            <th scope="col"><a class="btn btn-danger btn-sm" href="#">Deshabilitar</a></th>
           </tr>
-          <tr>
-            <th scope="col">FECHA</th>
-            <th scope="col">12-10-2018</th>
-          </tr>
-          <tr>
-            <th scope="col">NETO</th>
-            <th scope="col">$15000</th>
-          </tr>
-          <tr>
-            <th scope="col">IVA</th>
-            <th scope="col">$2850</th>
-          </tr>
-          <tr>
-            <th scope="col">TOTAL</th>
-            <th scope="col">$17850</th>
-          </tr>
+          
         </tbody>
       </table>
-      <button type="button" class="btn btn-warning btn-sm btn-block">Agregar repuestos</button>
-      <button type="button" class="btn btn-success btn-lg btn-block">Pagar</button>
 
     </div>
 

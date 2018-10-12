@@ -77,13 +77,13 @@
 
     </div>
 
-    <div class="btn-group-vertical" data-toggle="buttons">
+    <div class="btn-group-vertical">
       <a class="btn btn-primary" href="miPerfil_cliente.jsp">Mi Perfil</a>
-      <button type="button" class="btn btn-primary">Mis Vehiculos</button>
-      <button type="button" class="btn btn-primary">Mi Cuenta</button>
-      <button type="button" class="btn btn-primary">Agendar Cita</button>
-      <button type="button" class="btn btn-primary">Solicitar LLamada</button>
-      <button type="button" class="btn btn-primary">Historial</button>
+      <a href="listaVehiculos.jsp" class="btn btn-primary">Mis Vehiculos</a>
+      <a href="pagar.jsp" class="btn btn-primary">Mis Facturas</a>
+      <a href=""  class="btn btn-primary">Agendar Cita</a>
+      <a href=""  class="btn btn-primary">Solicitar LLamada</a>
+      <a href="" class="btn btn-primary">Historial</a>
     </div>
 
   </body>

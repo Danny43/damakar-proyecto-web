@@ -1,6 +1,6 @@
 <%-- 
-    Document   : pagar
-    Created on : 10/10/2018, 06:33:47 PM
+    Document   : mecanicoAgregar
+    Created on : 11/10/2018, 10:00:43 PM
     Author     : Kata
 --%>
 
@@ -10,7 +10,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="css/bootstrap.css"/>
-    <title>Pagar servicio</title>
+    <title>Agregar mecanico</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -46,43 +46,44 @@
       </div>
     </nav>
     <div class="container">
-      <div class="divTitulo row"><H1>PAGAR SERVICIO</H1></div> 
-      <table class="table table-hover">
-        <thead>
-          <tr>
-            <th scope="col">FOLIO</th>
-            <th scope="col">00000</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="col">MECANICO</th>
-            <th scope="col">JUAN</th>
-          </tr>
-          <tr>
-            <th scope="col">VEHICULO</th>
-            <th scope="col">AA0101</th>
-          </tr>
-          <tr>
-            <th scope="col">FECHA</th>
-            <th scope="col">12-10-2018</th>
-          </tr>
-          <tr>
-            <th scope="col">NETO</th>
-            <th scope="col">$15000</th>
-          </tr>
-          <tr>
-            <th scope="col">IVA</th>
-            <th scope="col">$2850</th>
-          </tr>
-          <tr>
-            <th scope="col">TOTAL</th>
-            <th scope="col">$17850</th>
-          </tr>
-        </tbody>
-      </table>
-      <button type="button" class="btn btn-warning btn-sm btn-block">Agregar repuestos</button>
-      <button type="button" class="btn btn-success btn-lg btn-block">Pagar</button>
+      <div class="divTitulo row"><H1 style="margin: 40px 0;">agregar mecanico</H1></div> 
+      <div class="formulario" style="margin:10px">
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="txtRut">RUT</label>
+            <input type="text" class="form-control" id="txtRut" name="txtRut" maxlength="10" placeholder="11222333-6">
+          </div>
+          <div class="form-group">
+            <label for="txtNombre">NOMBRE</label>
+            <input type="text" class="form-control" id="txtNombre" name="txtNombre" maxlength="45">
+          </div>
+          <div class="form-group">
+            <label for="txtApellido">APELLIDO</label>
+            <input type="text" class="form-control" id="txtApellido" name="txtApellido" maxlength="45">
+          </div>
+          <div class="form-group">
+            <label for="txtFechaContrato">FECHA DE CONTRATO</label>
+            <input type="date" class="form-control" id="txtFechaContrato" name="txtFechaContrato" >
+          </div>
+          <div class="form-group">
+            <label for="txtEmail">EMAIL</label>
+            <input type="text" class="form-control" id="txtEmail" name="txtEmail" maxlength="25"placeholder="ejemplo@email.com">
+          </div>
+          <div class="form-group">
+            <label for="txtPassword">CONTRASEÑA</label>
+            <input type="password" class="form-control" id="txtPassword" name="txtPassword" maxlength="6">
+            <small id="passwordHelp" class="form-text text-muted">DEBE TENER 6 CARACTERES.</small>
+          </div>
+          <div class="form-group">
+            <label for="txtFono">TELEFONO</label>
+            <input type="text" class="form-control" id="txtFono" name="txtFono" maxlength="12" placeholder="+56911114444">
+          </div>
+          
+
+          <button type="submit" class="btn btn-primary" name="action" value="agregarMecanico">Agregar</button>
+          <a href="mecanicoListar.jsp" class="btn btn-primary btn-sm">Ver todos <br> los mecanicos</a>
+        </form>
+      </div>
 
     </div>
 

@@ -1,8 +1,3 @@
-<%-- 
-    Document   : pagar
-    Created on : 10/10/2018, 06:33:47 PM
-    Author     : Kata
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -10,7 +5,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="css/bootstrap.css"/>
-    <title>Pagar servicio</title>
+    <title>Editar modelo</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -46,43 +41,25 @@
       </div>
     </nav>
     <div class="container">
-      <div class="divTitulo row"><H1>PAGAR SERVICIO</H1></div> 
-      <table class="table table-hover">
-        <thead>
-          <tr>
-            <th scope="col">FOLIO</th>
-            <th scope="col">00000</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="col">MECANICO</th>
-            <th scope="col">JUAN</th>
-          </tr>
-          <tr>
-            <th scope="col">VEHICULO</th>
-            <th scope="col">AA0101</th>
-          </tr>
-          <tr>
-            <th scope="col">FECHA</th>
-            <th scope="col">12-10-2018</th>
-          </tr>
-          <tr>
-            <th scope="col">NETO</th>
-            <th scope="col">$15000</th>
-          </tr>
-          <tr>
-            <th scope="col">IVA</th>
-            <th scope="col">$2850</th>
-          </tr>
-          <tr>
-            <th scope="col">TOTAL</th>
-            <th scope="col">$17850</th>
-          </tr>
-        </tbody>
-      </table>
-      <button type="button" class="btn btn-warning btn-sm btn-block">Agregar repuestos</button>
-      <button type="button" class="btn btn-success btn-lg btn-block">Pagar</button>
+      <div class="divTitulo row"><H1 style="margin: 40px 0;">EDITAR MODELO</H1></div> 
+      <div class="formulario" style="margin:10px">
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="txtModeloNombre">NOMBRE DEL MODELO</label>
+            <input type="text" class="form-control" id="txtModeloNombre" name="txtModeloNombre" placeholder="HILUX" maxlength="30">
+          </div>
+          <div class="form-group">
+            <label for="slcMarca">Marca vehiculo</label>
+            <select class="form-control" id="slcMarca" name="slcMarca">
+              <option>Toyota</option>
+              <option>Volkswagen</option>
+              <option>Morris Garages</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary" name="action" value="editarModelo">Guardar Cambios</button>
+          <a href="modeloListar.jsp" class="btn btn-primary btn-sm">Ver todos <br> los modelos</a>
+        </form>
+      </div>
 
     </div>
 
