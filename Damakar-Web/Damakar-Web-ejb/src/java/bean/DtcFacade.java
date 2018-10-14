@@ -17,7 +17,7 @@ import javax.persistence.PersistenceContext;
 @Stateless
 public class DtcFacade extends AbstractFacade<Dtc> implements DtcFacadeLocal {
 
-    @PersistenceContext(unitName = "Damakar-Web-ejbPU")
+    @PersistenceContext(unitName = "Damakar-Web-ejb")
     private EntityManager em;
 
     @Override
