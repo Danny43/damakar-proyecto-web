@@ -17,7 +17,7 @@ import javax.persistence.PersistenceContext;
 @Stateless
 public class FacturaFacade extends AbstractFacade<Factura> implements FacturaFacadeLocal {
 
-    @PersistenceContext(unitName = "Damakar-Web-ejbPU")
+    @PersistenceContext(unitName = "Damakar-Web-ejb")
     private EntityManager em;
 
     @Override

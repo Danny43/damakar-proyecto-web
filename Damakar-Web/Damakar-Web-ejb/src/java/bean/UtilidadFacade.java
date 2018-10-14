@@ -17,7 +17,7 @@ import javax.persistence.PersistenceContext;
 @Stateless
 public class UtilidadFacade extends AbstractFacade<Utilidad> implements UtilidadFacadeLocal {
 
-    @PersistenceContext(unitName = "Damakar-Web-ejbPU")
+    @PersistenceContext(unitName = "Damakar-Web-ejb")
     private EntityManager em;
 
     @Override
