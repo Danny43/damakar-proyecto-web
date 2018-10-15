@@ -88,7 +88,7 @@
             </div>
 
               <a class="btn btn-primary" href="menuPrincipal_cliente.jsp">Iniciar Sesion</a>
-              <a class="btn btn-primary" href="menuPrincipal_cliente.jsp">Iniciar Sesion Administrador</a>
+              <a class="btn btn-primary" href="menuAdministrador.jsp">Iniciar Sesion Administrador</a>
             <!--  Boton par que funcione con el Servlet
             <button type="submit" class="btn btn-primary" name="iniciar-cliente">Iniciar Sesion</button>
           -->
