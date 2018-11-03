@@ -1,12 +1,12 @@
-<%-- 
+<%--
     Document   : empresa
     Created on : 10/10/2018, 07:16:31 PM
     Author     : Kata
 --%>
-<!--Opción de información acerca de la empresa dando a 
-conocer conceptos como Misión, 
+<!--Opción de información acerca de la empresa dando a
+conocer conceptos como Misión,
 Visión, Historia, Sucursales, Preguntas Frecuentes,
-Marcas Asociadas, Contactos etc.--> 
+Marcas Asociadas, Contactos etc.-->
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -28,7 +28,7 @@ Marcas Asociadas, Contactos etc.-->
             <a class="nav-link" href="index.jsp">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="informacion.jsp">Quienes somos</a>
+            <a class="nav-link active" href="informacion.jsp">Quienes somos<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="vehiculosCatalogo.jsp">Vehiculos</a>
@@ -40,7 +40,7 @@ Marcas Asociadas, Contactos etc.-->
             <a class="nav-link" href="#">Taller</a>
           </li>-->
           <li class="nav-item">
-            <a class="nav-link active" href="login_cliente.jsp">Cliente<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="login_cliente.jsp">Cliente</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="ayuda.jsp">AYUDA</a>
@@ -49,7 +49,7 @@ Marcas Asociadas, Contactos etc.-->
       </div>
     </nav>
     <div class="container">
-      <div class="divTitulo row"><H1 style="margin: 40px 0;">Quienes somos</H1></div> 
+      <div class="divTitulo row"><H1 style="margin: 40px 0;">Quienes somos</H1></div>
 
       <div class="card border-primary mb-3" style="">
         <div class="card-header"><h4>Nuestra misión</h4></div>
@@ -115,19 +115,19 @@ Marcas Asociadas, Contactos etc.-->
             </tr>
           </thead>
           <tbody>
-            <tr>  
+            <tr>
               <td>Casa matriz</td>
               <td>Mackenna 1659</td>
               <td>Osorno</td>
               <td>64 222 1426</td>
             </tr>
-            <tr>  
+            <tr>
               <td>Ventas Toyora</td>
               <td>Regimiento 801</td>
               <td>Puerto Montt</td>
               <td>65 2277 694</td>
             </tr>
-            <tr>  
+            <tr>
               <td>Servcio Técnico</td>
               <td>Gabriela Mistral 425	</td>
               <td>Castro</td>

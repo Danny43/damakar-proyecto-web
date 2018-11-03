@@ -1,4 +1,4 @@
-<%-- 
+<%--
     Document   : index
     Created on : Oct 6, 2018, 3:40:22 PM
     Author     : 20032262-2
@@ -25,7 +25,7 @@
             <div class="collapse navbar-collapse" id="navbarColor01">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.jsp">Inicio</a>
+                        <a class="nav-link active" href="index.jsp">Inicio<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="informacion.jsp">Quienes somos</a>
@@ -40,8 +40,13 @@
                                 <a class="nav-link" href="#">Taller</a>
                               </li>-->
                     <li class="nav-item">
-                        <a class="nav-link active" href="login_cliente.jsp">Cliente<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="login_cliente.jsp">Cliente</a>
                     </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="ayuda.jsp">Ayuda</a>
+                    </li>
+
                 </ul>
             </div>
         </nav>
@@ -82,7 +87,7 @@
                     <a class="col kappa"><img class="p1" src="img/hondalogo.jpg"/></a>
                     <a class="col kappa"><img class="p1" src="img/skodalogo.jpg"/></a>
                     <a class="col kappa"><img class="p1" src="img/mglogo.jpg"/></a>
-                    <a class="col kappa"><img class="p1" src="img/cherylogo.jpg"/></a>     
+                    <a class="col kappa"><img class="p1" src="img/cherylogo.jpg"/></a>
                 </div>
             </div>
             <div class="video">
