@@ -1,4 +1,4 @@
-<%-- 
+<%--
     Document   : repuestosCatalogo
     Created on : 10/10/2018, 09:46:46 PM
     Author     : Kata
@@ -31,13 +31,13 @@
             <a class="nav-link" href="vehiculosCatalogo.jsp">Vehiculos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="repuestosCatalogo.jsp">Repuestos</a>
+            <a class="nav-link active" href="repuestosCatalogo.jsp">Repuestos<span class="sr-only">(current)</span></a>
           </li>
 <!--          <li class="nav-item">
             <a class="nav-link" href="#">Taller</a>
           </li>-->
           <li class="nav-item">
-            <a class="nav-link active" href="login_cliente.jsp">Cliente<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="login_cliente.jsp">Cliente</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="ayuda.jsp">AYUDA</a>
@@ -46,7 +46,7 @@
       </div>
     </nav>
     <div class="container">
-      <div class="divTitulo row"><H1 style="margin: 40px 0;">Venta de repuestos</H1></div> 
+      <div class="divTitulo row"><H1 style="margin: 40px 0;">Venta de repuestos</H1></div>
       <div class="row divCatalogos">
         <div class="col">
           <div class="card border-primary mb-3" style="">
