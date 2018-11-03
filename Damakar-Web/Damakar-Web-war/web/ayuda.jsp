@@ -29,16 +29,16 @@
             <a class="nav-link" href="repuestosCatalogo.jsp">Repuestos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="login_cliente.jsp">Cliente<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="login_cliente.jsp">Cliente</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="ayuda.jsp">Ayuda</a>
+            <a class="nav-link active" href="ayuda.jsp">Ayuda<span class="sr-only">(current)</span></a>
           </li>
         </ul>
       </div>
     </nav>
     <div class="container">
-      <div class="divTitulo row"><H1>PREGUNTAS FRECUENTES</H1></div> 
+      <div class="divTitulo row"><H1>PREGUNTAS FRECUENTES</H1></div>
       <div class="divPreguntas">
         <h4>¿Cuentan con Servicio técnico de las marcas que venden?</h4>
         <p>Sí, contamos con Servicio Técnico autorizado por cada una de nuestras marcas comercializadas, lo que asegura la validez de su garantía.</p>
